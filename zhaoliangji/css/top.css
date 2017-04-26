@@ -1,0 +1,147 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+a{
+	text-decoration: blink;
+}
+li{
+	list-style: none;
+}
+/*头部*/
+.top{
+	width: 100%;
+	min-width: 1348px;
+	height: 190px;
+	margin: auto;
+	border-bottom: 1px solid #b5b5b5;
+}
+/*字框*/
+.top_top{
+	width: 100%;
+	min-width: 1348px;
+	height: 35px;
+	background: #f2f2f2;
+}
+.top_top_kuang{
+	width: 1000px;
+	height: 35px;
+	margin: auto;
+}
+.top_top_kuang>ul{
+	width: 1000px;
+	height: 20px;
+}
+.top_top_kuang>ul>li{
+	float: left;
+	width: 500px;
+	height: 20px;
+	font-size: 14px;
+	padding-top: 9px;
+	margin: auto;
+	color: #6A6464;
+}
+.top_top_kuang>ul>li>a{
+	color: #6A6464;
+}
+.top_top_kuang>ul>li:nth-child(2){
+	float: right;
+    width: 304px;
+    height: 15px;
+    font-size: 13px;
+}
+/*logo部分*/
+.logo{
+	width: 1000px;
+	height: 135px;
+	/*background: palevioletred;*/
+	margin: auto;
+	margin-top: 20px;
+	position: relative;
+}
+.logo>img{
+	display: block;
+	float: left;
+	padding-left: 30px;
+}
+.logo>p{
+	float: right;
+	padding-top: 13px;
+	padding-right: 97px;
+	/*font-size: 13px;*/
+}
+.logo>p>a{
+	color:#AEAEB0;
+	font-size: 13px;
+}
+/*搜索框*/
+.logo_kuang{
+	float: right;
+	width: 330px;
+    height: 39px;
+    margin-right: 42px;
+	border: 1px solid gray;
+}
+.logo_kuang>p{
+	float: left;
+	width: 150px;
+	height: auto;
+	font-size: 14px;
+    color:#AEAEB0;
+    padding-top: 8px;
+    font-family: "微软雅黑";
+    padding-left: 10px;
+    font-weight: bold;
+}
+.logo_kuang>p:nth-child(2){
+	font-size: 12px;
+	color: black;
+	
+}
+/*黑框*/
+.heikuang{
+	float: right;
+	width: 63px;
+	height: 39px;
+	background: #555555;
+}
+.heikuang>p{
+	font-size: 16px;
+    text-align: center;
+    padding-top: 9px;
+}
+.heikuang>p>a{
+	color: white;
+}
+/*logo底部*/
+.logo_di{
+	position: absolute;
+	width: 1000px;
+	height: 42px;
+	margin: auto;
+	bottom: 0;
+}
+.logo_di ul{
+	width: 950px;
+    height: 43px;
+}
+.logo_di ul li{
+	float: left;
+	width: 77px;
+	height: 31px;
+	margin: 0 12px;
+	padding-top:10px ;
+	text-align: center;
+}
+.logo_di ul li a{
+	font-family: "微软雅黑";
+	font-size: 14px;
+	color: #353434;
+}
+.logo_di ul li a:hover{
+	color: #ff6148;
+}
+.logo_di ul li:hover{
+		border-bottom: 3px solid #ff6148;
+}
+

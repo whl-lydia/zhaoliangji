@@ -1,0 +1,42 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+a{
+	text-decoration: blink;
+}
+/*内容*/
+.content{
+	width: 362px;
+	height: 403px;
+	margin: auto;
+	/*padding: 20px 20px;*/
+}
+.content ul{
+	padding-top: 30px;
+	width: 362px;
+	height: 403px;
+}
+.content ul li{
+	font-size: 14px;
+	line-height: 38px;
+	text-align: center;
+}
+.content ul li:nth-child(2){
+	color: #FE6546;
+}
+.text1{
+	width: 357px;
+	height: 45px;
+	background: #5d1988;
+	border-radius: 5%;
+}
+.content ul li:nth-child(7){
+	width: 357px;
+	height: 45px;
+	background: #FE6546;
+	margin-top: 30px;
+}
+.content ul li:nth-child(7) a{
+	color: white;
+}

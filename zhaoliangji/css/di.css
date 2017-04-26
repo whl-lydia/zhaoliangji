@@ -1,0 +1,146 @@
+/*工具图片2*/
+.gongju_1{
+	width: 100%;
+	min-width: 1022px;
+	height: 119px;
+	border-top: 1px solid #e4e4e4;
+}
+.gongju_1 ul{
+	width: 1000px;
+	height: 250px;
+	margin: auto;
+	padding-top: 28px;
+}
+.gongju_1 ul li{
+	float: left;
+    width: 170px;
+    height: 60px;
+    font-size: 23px;
+    font-family: "微软雅黑";
+    text-align: center;
+    font-weight: bold;
+    padding-left: 60px;
+    line-height: 65px;
+}
+.gongju_tu1{
+	width: 61px;
+	height: 60px;
+	float: left;
+	background: url(../img/lwf_ico.png) no-repeat;
+	background-position: 0 0;
+}
+.gongju_tu2{
+	width: 61px;
+	height: 60px;
+	float: left;
+	background: url(../img/lwf_ico.png) no-repeat;
+	background-position: -60px 0;
+}
+.gongju_tu3{
+	width: 61px;
+	height: 60px;
+	float: left;
+	background: url(../img/lwf_ico.png) no-repeat;
+	background-position:1px -61px;
+}
+.gongju_tu4{
+	width: 61px;
+	height: 60px;
+	float: left;
+	background: url(../img/lwf_ico.png) no-repeat;
+	background-position: -60px -61px;
+}
+/*底部头*/
+.bottom{
+	width: 1000px;
+	min-width: 1022px;
+	height: 185px;
+	padding-top: 20px;
+	margin: auto;
+	border-top: 1px solid #e4e4e4;
+}
+.bottom_logo{
+	float: left;
+	width:186px;
+	height: 179px;
+	background: url(../img/logo_bottom.jpg) no-repeat;
+	margin: 0 30px;
+}
+.bottom_logo>ul{
+	font-size: 15px;
+	font-family: "微软雅黑";
+	font-weight: bold;
+	padding-top: 75px;
+}
+.bottom_logo>ul>li{
+	float: left;	
+}
+.bottom_logo>ul>li:nth-child(2){
+	margin-top: -10px;
+}
+.bottom_logo>ul>li:nth-child(3){
+	margin-top: -10px;
+	padding-left: 10px;
+}
+.bottom_logo>ul>li:nth-child(5){
+	color: #98999b;
+	font-size: 13px;
+}
+.bottom_logo>ul>li:nth-child(1){
+}
+/*字盒子*/
+.bottom>ul{
+	float: left;
+    width: 90px;
+    height: 179px;
+    margin-left: 20px;
+    padding-left: 10px;
+}
+.bottom>ul>li{
+	width: 100px;
+	height: 32px;
+	font-size: 12px;
+}
+.bottom>ul>li>a{
+	color: black;
+}
+.bottom>ul>li:nth-child(1){
+	font-size: 18px;
+}
+.bottom_tu{
+	float: left;
+	width: 113px;
+	height: 135px;
+	margin-top: 10px;
+	margin-left: 30px;
+	background: url(../img/app.png) no-repeat;
+	background-size: 110px 110px;
+	position: relative;
+}
+.bottom_tu p{
+	position: absolute;
+	bottom: 0px;
+	width: 96px;
+	height: 23px;
+	padding-top: 40px;
+	padding-left: 14px;
+	font-size: 12px;
+}
+
+/*底部*/
+.bottom_bottom{
+	width: 100%;
+	min-width: 1335px;
+	height: 100px;
+	background: black;
+	position: relative;
+}
+.bottom_bottom p{
+	width: 994px;
+	height: 20px;
+	font-size: 12px;
+	color: white;
+	text-align: center;
+	line-height: 50px;
+	margin: auto;
+}

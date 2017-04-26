@@ -1,0 +1,170 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+a{
+	text-decoration: blink;
+}
+/*内容*/
+.content{
+	width: 1000px;
+	height: 1700px;
+	/*background: plum;*/
+	margin: auto;
+}
+.content_left{
+	float: left;
+	width: 644px;
+	height: 1700px;
+	/*background: peru;*/
+}
+.left_1{
+	width: 642px;
+	height: 134px;
+	border: 1px solid gray;
+	padding-top: 10px;
+	margin-top: 30px;
+}
+.left_1 p{
+	font-size: 18px;
+}
+.left_1 p:hover{
+	color: red;
+}
+.left_1_img{
+	float: left;
+	width: 140px;
+	height: 95px;
+	background: url(../img/tupain1.png) no-repeat;
+	background-size: 140px 95px;
+	margin-top: 12px;
+}
+.left_1_img_2{
+	float: left;
+	width: 140px;
+	height: 95px;
+	background: url(../img/tupain2.png) no-repeat;
+	background-size: 140px 95px;
+	margin-top: 5px;
+}
+.left_1_img_3{
+	float: left;
+	width: 140px;
+	height: 95px;
+	background: url(../img/tupain3.png) no-repeat;
+	background-size: 140px 95px;
+	margin-top: 5px;
+}
+.left_1_img_4{
+	float: left;
+	width: 140px;
+	height: 95px;
+	background: url(../img/tupain4.png) no-repeat;
+	background-size: 140px 95px;
+	margin-top: 5px;
+}
+.left_1_img_5{
+	float: left;
+	width: 140px;
+	height: 95px;
+	background: url(../img/tupain5.png) no-repeat;
+	background-size: 140px 95px;
+	margin-top: 5px;
+}
+.left_1_img_6{
+	float: left;
+	width: 140px;
+	height: 95px;
+	background: url(../img/tupain6.png) no-repeat;
+	background-size: 140px 95px;
+	margin-top: 5px;
+}
+.left_1_img_7{
+	float: left;
+	width: 140px;
+	height: 95px;
+	background: url(../img/tupain7.png) no-repeat;
+	background-size: 140px 95px;
+	margin-top: 5px;
+}
+.left_1_img_8{
+	float: left;
+	width: 140px;
+	height: 95px;
+	background: url(../img/tupain8.png) no-repeat;
+	background-size: 140px 95px;
+	margin-top: 5px;
+}
+.left_1_img_9{
+	float: left;
+	width: 140px;
+	height: 95px;
+	background: url(../img/tupain9.png) no-repeat;
+	background-size: 140px 95px;
+	margin-top: 5px;
+}
+.left_1 ul{
+	float: left;
+	width: 482px;
+	height: 126px;
+	margin-top: 12px;
+	margin-left: 10px;
+}
+.left_1 ul li{
+	float: left;
+	height: 102px;
+	float: left;
+	font-size: 14px;
+	text-indent: 32px;
+	/*white-space: nowrap;*/
+}
+.content_right{
+	float: right;
+	width: 303px;
+	height: 350px;
+	margin-top: 40px;
+}
+.content_right img{
+	padding-top: 20px;
+}
+/*身体底部分页部分*/
+.fenye{
+	width: 100%;
+    height: 25px;
+    margin: 35px 0px;
+}
+.fenye ul{
+	width: 467px;
+	height: 39px;
+	border: 1px solid #dddddd;
+}
+.fenye ul li{
+	width: 35px;
+    height: 28px;
+    float: left;
+    font-size: 13px;
+    text-align: center;
+    padding-top: 12px;
+    border-left: 1px solid #dddddd;
+   
+}
+.fenye ul li:nth-child(1){
+	 border-left:none;
+}
+.fenye ul li a{
+	 color: #fe6546;
+	 width: 50px;
+}
+.fenye ul li:nth-child(1) a{
+	color: #868990;
+}
+.fenye ul li:nth-child(13) a{
+	color: #868990;
+}
+/*悬浮*/
+.fenye ul li:hover{
+	background: #fe6546;
+}
+.fenye ul li:hover a{
+	color: white;
+}

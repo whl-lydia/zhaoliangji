@@ -1,0 +1,126 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+a{
+	text-decoration: blink;
+}
+/*内容*/
+.content{
+	width: 1000px;
+	height: 2000px;
+	/*background: plum;*/
+	margin: auto;
+}
+.content_left{
+	float: left;
+	width: 644px;
+	height: 1700px;
+	/*background: peru;*/
+}
+.left_1{
+	width: 642px;
+	height: 134px;
+	border: 1px solid gray;
+	padding-top: 10px;
+	margin-top: 30px;
+}
+.left_1 p{
+	font-size: 18px;
+}
+.left_1_img{
+	float: left;
+	width: 140px;
+	height: 109px;
+	background: url(../img/tupain1.png) no-repeat;
+	background-size: 140px 109px;
+	margin-top: 12px;
+}
+.left_1_img_2{
+	float: left;
+	width: 140px;
+	height: 109px;
+	background: url(../img/tupain2.png) no-repeat;
+	background-size: 140px 109px;
+	margin-top: 5px;
+}
+.left_1_img_3{
+	float: left;
+	width: 140px;
+	height: 95px;
+	background: url(../img/tupain3.png) no-repeat;
+	background-size: 140px 95px;
+	margin-top: 5px;
+}
+.left_1_img_4{
+	float: left;
+	width: 140px;
+	height: 95px;
+	background: url(../img/tupain4.png) no-repeat;
+	background-size: 140px 99px;
+	margin-top: 5px;
+}
+.left_1_img_5{
+	float: left;
+	width: 140px;
+	height: 95px;
+	background: url(../img/tupain5.png) no-repeat;
+	background-size: 140px 95px;
+	margin-top: 5px;
+}
+.left_1_img_6{
+	float: left;
+	width: 140px;
+	height: 109px;
+	background: url(../img/tupain6.png) no-repeat;
+	background-size: 140px 109px;
+	margin-top: 5px;
+}
+.left_1_img_7{
+	float: left;
+	width: 140px;
+	height: 109px;
+	background: url(../img/tupain7.png) no-repeat;
+	background-size: 140px 109px;
+	margin-top: 5px;
+}
+.left_1_img_8{
+	float: left;
+	width: 140px;
+	height: 109px;
+	background: url(../img/tupain8.png) no-repeat;
+	background-size: 140px 109px;
+	margin-top: 5px;
+}
+.left_1_img_9{
+	float: left;
+	width: 140px;
+	height: 95px;
+	background: url(../img/tupain9.png) no-repeat;
+	background-size: 140px 95px;
+	margin-top: 5px;
+}
+.left_1 ul{
+	float: left;
+	width: 482px;
+	height: 126px;
+	margin-top: 12px;
+	margin-left: 10px;
+}
+.left_1 ul li{
+	float: left;
+	height: 102px;
+	float: left;
+	font-size: 14px;
+	text-indent: 32px;
+	/*white-space: nowrap;*/
+}
+.content_right{
+	float: right;
+	width: 303px;
+	height: 350px;
+	margin-top: 40px;
+}
+.content_right img{
+	padding-top: 20px;
+}

@@ -1,0 +1,544 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.neck{
+	width: 100%;
+	min-width: 1300px;
+	height: 177px;
+	background: #FE6546;
+	margin: auto;
+	border-bottom: 1px solid gray;
+	position: relative;
+}
+.neck>p{
+	font-size: 30px;
+	color: white;
+	text-align: center;
+	font-family: "微软雅黑";
+	padding-top: 40px;
+}
+.neck_tiao{
+	position: absolute;
+	width: 1000px;
+	height: 50px;
+	bottom: 0px;
+	margin-left: 50%;
+	left: -500px;
+	background: white;
+}
+.neck_kuai{
+	float: left;
+	width: 5px;
+	height: 30px;
+	background: #FE6546;
+	margin-top: 10px;
+	margin-left: 25px;
+}
+.neck_tiao p{
+	color: #333333;
+	padding-left: 42px;
+	margin-top: 18px;
+	font-size: 15px;
+}
+/*内容*/
+.content{
+	width: 1300px;
+	height: auto;
+	background: #F6F6F6;
+	margin: auto;
+	position: relative;
+}
+/*内容中间部分*/
+.content_content{
+	display: block;
+	width: 1000px;
+	height: 2000px;
+	/*background: sandybrown;*/
+	margin: auto;
+	padding-top: 40px;
+}
+/*内容1*/
+.content_content_1{
+	width: 923px;
+	height: 615px;
+	margin-left: 40px;
+}
+/*大图片*/
+.datu{
+	width: 923px;
+	height: 523px;
+	background: url(../img/shouji1.jpg) no-repeat;
+}
+/*小图片*/
+.content_content_1 ul{
+	width: 920px;
+	height: 70px;
+	margin-top: 20px;
+}
+.content_content_1 ul li{
+	float: left;
+	width: 80px;
+	height: 50px;
+	margin-left: 20px;
+}
+.content_content_1 ul li:nth-child(1){
+	background: url(../img/shouji1.jpg) no-repeat;
+	background-size: 80px 50px;
+}
+.content_content_1 ul li:nth-child(2){
+	background: url(../img/shouji2.jpg) no-repeat;
+	background-size: 80px 50px;
+}
+.content_content_1 ul li:nth-child(3){
+	background: url(../img/shouji3.jpg) no-repeat;
+	background-size: 80px 50px;
+}
+.content_content_1 ul li:nth-child(4){
+	background: url(../img/shouji4.jpg) no-repeat;
+	background-size: 80px 50px;
+}
+.content_content_1 ul li:nth-child(5){
+	background: url(../img/shouji5.jpg) no-repeat;
+	background-size: 80px 50px;
+}
+.content_content_1 ul li:nth-child(6){
+	background: url(../img/shouji6.jpg) no-repeat;
+	background-size: 80px 50px;
+}
+.content_content_1 ul li:nth-child(7){
+	background: url(../img/shouji7.jpg) no-repeat;
+	background-size: 80px 50px;
+}
+.content_content_1 ul li:nth-child(8){
+	background: url(../img/shouji8.jpg) no-repeat;
+	background-size: 80px 50px;
+}
+.content_content_1 ul li:nth-child(9){
+	background: url(../img/shouji9.jpg) no-repeat;
+	background-size: 80px 50px;
+}
+.content_content_1 ul li:nth-child(10){
+	background: url(../img/shouji10.jpg) no-repeat;
+	background-size: 80px 50px;
+}
+/*内容2*/
+.content_content_2{
+	width: 920px;
+	height: 227px;
+	border-top: 1px solid #cdcdcd;
+	border-bottom: 1px solid #cdcdcd;
+	padding: 50px 40px;
+}
+/*内容2左*/
+.content_content_2_left{
+	float: left;
+	width: 437px;
+	height: 206px;
+	border-right: 1px solid #EDEEF0;
+/*	background: burlywood;*/
+	padding-top: 20px;
+}
+.content_content_2_left img{
+	float: left;
+}
+.content_content_2_left ul{
+	float: left;
+	margin-left: 15px;
+}
+.content_content_2_left ul li{
+	color: #2d343c;
+	font-size: 14px;
+	line-height: 24px;
+}
+.content_content_2_left ul li:nth-child(1){
+	 color: black;
+     font-weight: bold;
+     padding-bottom: 10px;
+}
+/*内容2右*/
+.content_content_2_right{
+	float: right;
+	width: 400px;
+	height: 206px;
+	padding-top: 20px;
+}
+.content_content_2_right ul{
+	float: left;
+	margin-left: 15px;
+}
+.content_content_2_right ul li{
+	color: #2d343c;
+	font-size: 14px;
+	line-height: 24px;
+}
+.content_content_2_right ul li:nth-child(1){
+	 color: black;
+     font-weight: bold;
+     font-size: 18px;
+     padding-bottom: 10px;
+}
+.content_content_2_right ul li:nth-child(1) span{
+	font-size: 13px;
+}
+.content_content_2_right ul li:nth-child(6){
+	font-size: 23px;
+	color: #FE6546;
+	padding-top: 10px;
+	position: relative;
+}
+.goumia{
+	width: 100px;
+	height: 40px;
+	background: #FE6546;
+	position: absolute;
+	top: 0px;
+	right: 0px;
+}
+.goumia p{
+	font-size: 15px;
+	text-align: center;
+	line-height: 40px;
+	
+}
+.goumia p a{
+	color: white;
+}
+/*内容3*/
+.content_content_3{
+	width: 1000px;
+	height: 328px;
+	border-bottom: 1px solid #cdcdcd;
+}
+/*推荐购买框*/
+.content_content_3_top{
+	width: 1000px;
+	height: 50px;
+	border-bottom: 1px solid #cdcdcd;
+}
+/*小块*/
+.content_content_3_top_kuai{
+	float: left;
+    width: 5px;
+    height: 30px;
+    background: #FE6546;
+    margin-top: 10px;
+    margin-left: 25px;
+}
+.content_content_3_top p{
+	color: #333333;
+    padding-left: 42px;
+    padding-top: 18px;
+    font-size: 15px;
+}
+/*充电器框*/
+.content_content_3 ul{
+	width: 900px;
+	height: 239px;
+	margin-top: 20px;
+}
+.content_content_3 ul li{
+	float: left;
+	width: 160px;
+	height: 80px;
+	font-size: 15px;
+	line-height: 20px;
+	color: #333333;
+	text-align: center;
+	background: orange;
+	margin-left: 20px;
+	padding-top: 164px;
+}
+.content_content_3 ul li span{
+	float: left;
+	margin-left: 49px;
+	color: #FE6546;
+}
+.content_content_3 ul li p{
+	float: left;
+	width: 23px;
+	height: 23px;
+	background: #edeef2;
+	margin-left:22px;
+}
+.content_content_3 ul li:nth-child(1){
+	background: url(../img/xian1.png) no-repeat;
+	background-size: 160px 160px;
+}
+.content_content_3 ul li:nth-child(2){
+	background: url(../img/xian2.png) no-repeat;
+	background-size: 160px 160px;
+}
+.content_content_3 ul li:nth-child(3){
+	background: url(../img/xian3.png) no-repeat;
+	background-size: 160px 160px;
+}
+.content_content_3 ul li:nth-child(4){
+	background: url(../img/xian4.png) no-repeat;
+	background-size: 160px 160px;
+}
+.content_content_3 ul li:nth-child(5){
+	background: url(../img/xian5.png) no-repeat;
+	background-size: 160px 160px;
+}
+/*内容4*/
+.content_content_4{
+	width: 1000px;
+	height: 217px;
+	border-bottom: 1px solid #cdcdcd;
+}
+/*详细参数*/
+.content_content_4_top{
+	width: 1000px;
+	height: 50px;
+	border-bottom: 1px solid #cdcdcd;
+}
+/*小块*/
+.content_content_4_top_kuai{
+	float: left;
+    width: 5px;
+    height: 30px;
+    background: #FE6546;
+    margin-top: 10px;
+    margin-left: 25px;
+}
+.content_content_4_top p{
+	color: #333333;
+    padding-left: 42px;
+    padding-top: 18px;
+    font-size: 15px;
+}
+.content_content_4 ul{
+	float: left;
+	width: 204px;
+	height: 100px;
+	margin-top: 40px;
+	margin-left: 20px;
+}
+.content_content_4 ul li{
+	width: 204px;
+	height: 30px;
+	font-size: 15px;
+	color: #333333;
+	margin-left: 40px;
+}
+/*内容5*/
+.content_content_5{
+	width: 1000px;
+	height: 467px;
+	border-bottom: 1px solid #cdcdcd;
+}
+/*外观检测*/
+.content_content_5_p1{
+	float: left;
+	width: 500px;
+	height: 30px;
+	text-align: center;
+	line-height: 28px;
+	margin-top: 10px;
+	color: #21c5a2;
+}
+/*功能检测*/
+.content_content_5_p2{
+	float: left;
+	width: 500px;
+	height: 30px;
+	text-align: center;
+	line-height: 28px;
+	margin-top: 10px;
+	color: #21c5a2;
+}
+/*详细参数*/
+.content_content_5_top{
+	width: 1000px;
+	height: 50px;
+	border-bottom: 1px solid #cdcdcd;
+}
+/*小块*/
+.content_content_5_top_kuai{
+	float: left;
+    width: 5px;
+    height: 30px;
+    background: #FE6546;
+    margin-top: 10px;
+    margin-left: 25px;
+}
+.content_content_5_top p{
+	color: #333333;
+    padding-left: 42px;
+    padding-top: 18px;
+    font-size: 15px;
+}
+/*外观检查*/
+/*内容5左*/
+.content_content_5_left{
+	float: left;
+	width: 459px;
+	height: 355px;
+	margin-left: 30px;
+	background: url(../img/test_bg.jpg) no-repeat;
+	border-right: 1px solid #cdcdcd;
+	position: relative;
+}
+.content_content_5_left ul{
+	font-size: 15px;
+	color: #333333;
+}
+.content_content_5_left ul li:nth-child(1){
+	position: absolute;
+	top: 28px;
+    left: 37px;
+}
+.content_content_5_left ul li:nth-child(2){
+	position: absolute;
+	top: 28px;
+	left: 161px;
+}
+.content_content_5_left ul li:nth-child(3){
+	position: absolute;
+	top: 183px;
+	left: 77px;
+}
+.content_content_5_left ul li:nth-child(4){
+	position: absolute;
+	top: 93px;
+    right: 147px;
+}
+.content_content_5_left ul li:nth-child(5){
+	position: absolute;
+	top: 169px;
+	right: 147px;
+}
+.content_content_5_left ul li:nth-child(6){
+	position: absolute;
+	bottom: 69px;
+    right: 147px;
+}
+.content_content_5_left ul li:nth-child(7){
+	position: absolute;
+	bottom: 0px;
+    left: 151px;
+}
+.content_content_5_left ul li:nth-child(8){
+	position: absolute;
+	bottom: 0px;
+    right: 176px;
+}
+/*功能检查*/
+/*内容5右*/
+.content_content_5_right{
+	float: right;
+	width: 450px;
+	height: 354px;
+	position: relative;
+}
+.content_content_5_right ul{
+	float: left;
+	width: 140px;
+	height: 16px;
+	margin-left: 45px;
+}
+.content_content_5_right ul li{
+	font-size: 12px;
+	height: 17px;
+	color: #656766;
+	padding-top: 12px;
+}
+.content_content_5_right ul li img{
+	float: right;
+}
+.content_content_5_right_p1{
+	/*float: left;*/
+	position: absolute;
+	bottom: 0px;
+	left: 57px;
+	color: #333333;
+	font-size: 14px;
+	width: 87px;
+	height: 17px;
+	text-align: center;
+	/*float: right;*/	
+}
+.content_content_5_right_p1 img{
+	float: left;
+}
+.content_content_5_right_p2{
+	position: absolute;
+	bottom: 0px;
+	left: 165px;
+	color: #333333;
+	font-size: 14px;
+	width: 100px;
+	height: 17px;
+	text-align: center;
+	float: right;		
+}
+.content_content_5_right_p2 img{
+	float: left;
+}
+.content_content_5_right_p3{
+	position: absolute;
+	bottom: 0px;
+	right: 77px;
+	color: #333333;
+	font-size: 14px;
+	width: 87px;
+	height: 17px;
+	text-align: center;
+	float: right;	
+}
+.content_content_5_right_p3 img{
+	float: left;
+}
+/*右边小框*/
+.content_right_kuang{
+	float: right;
+	width: 110px;
+    height: 230px;
+	background: #fe9174;
+	border-radius: 5%;
+	margin-top: 40px;
+}
+.content_right_kuang ul{
+	width: 93px;
+    height: 291px;
+    margin-top: 10px;
+}
+.content_right_kuang ul li{
+	width: 93px;
+	height: 45px;
+	font-size: 15px;
+	color: white;
+	font-family: "微软雅黑";
+	line-height: 32px;
+}
+.content_right_kuang ul li a{
+	color: white;
+}
+.content_right_kuang ul li:nth-child(1){
+	background: url(../img/zj_cio.png) no-repeat;
+	background-size: 35px 35px;
+    padding-left: 43px;
+    margin-left: 13px;
+    width: 50px;
+	
+}
+.content_right_kuang ul li:nth-child(2){
+	background: url(../img/jiaintou.png) no-repeat;
+	background-size: 35px 35px;
+    padding-left: 43px;
+    margin-left: 13px;
+    width: 50px;
+}
+.content_right_kuang ul li:nth-child(3){
+	background: url(../img/app.png) no-repeat;
+    background-size: 100px 100px;
+    width: 100px;
+    height: 100px;
+    border-radius: 5%;
+    margin-left: 5px;
+}
+.content_right_kuang ul li:nth-child(4){
+    padding-left: 15px;
+    font-size: 13px;
+}
